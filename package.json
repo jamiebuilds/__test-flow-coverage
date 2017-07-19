@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "James Kyle <me@thejameskyle.com>",
   "license": "MIT",
+  "scripts": {
+    "coverage": "flow coverage index.js --color"
+  },
   "devDependencies": {
     "flow-bin": "^0.50.0"
   }

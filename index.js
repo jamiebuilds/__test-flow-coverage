@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-function wrap<Props: {}>(Component: Class<React.Component<void, Props, void>>): Class<React.Component<void, Props, void>> {
+function wrap<Props: Object>(Component: Class<React.Component<void, Props, void>>): Class<React.Component<void, Props, void>> {
   return class MyComponent extends React.Component {
     props: Props;
 
